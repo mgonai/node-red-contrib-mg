@@ -8,7 +8,7 @@
   },
   "node-red": {
     "nodes": {
-      "node-mg": "node.js"
+      "mg-node": "node.js"
     }
   },
   "repository": {
