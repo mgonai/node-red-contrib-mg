@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    RED.nodes.registerType('mg-node',{
+        category: 'function',
+        color: 'yellow',
+        defaults: {
+            name: {value:""}
+        },
+        inputs:1,
+        outputs:1,
+        icon: "light.png",
+        label: function() {
+            return this.name||"mg-node";
+        }
+    });
+</script>
+
+<script type="text/x-red" data-template-name="mg-node">
+    <div class="form-row">
+        <label for="node-input-name"><i class="icon-tag"></i> Name</label>
+        <input type="text" id="node-input-name" placeholder="Name">
+    </div>
+</script>
+
+<script type="text/x-red" data-help-name="mg-node">
+    <p>A simple node that converts the message payloads into all mg-node characters</p>
+</script>
+

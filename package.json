@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-mg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "node-red": {
+    "nodes": {
+      "node-mg": "node.js"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mgonai/node-red-contrib-mg.git"
+  },
+  "keywords": [
+    "node-red"
+  ],
+  "author": "mgonai",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mgonai/node-red-contrib-mg/issues"
+  },
+  "homepage": "https://github.com/mgonai/node-red-contrib-mg#readme"
+}
